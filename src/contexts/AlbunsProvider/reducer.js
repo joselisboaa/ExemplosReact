@@ -1,5 +1,4 @@
 import { ALBUNS_TYPES } from "./types";
-import { data } from "./data";
 
 export const albunsReducer = (state, action) => {
 

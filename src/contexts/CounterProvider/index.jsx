@@ -1,4 +1,4 @@
-import { useContext, useReducer } from "react"
+import { useReducer } from "react"
 import { CounterContext } from "./context"
 import { data } from "./data";
 import { Reducer } from "./reducer";
