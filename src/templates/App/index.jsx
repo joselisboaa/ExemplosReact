@@ -1,8 +1,10 @@
 import { AlbumProvider } from '../../contexts/AlbunsProvider'
 import { Albuns } from '../../components/Albuns'
-import './styles.css'
 import { CounterProvider } from '../../contexts/CounterProvider'
 import { CommentProvider } from '../../contexts/CommentsProvider'
+import './styles.css'
+import { Comments } from '../../components/Comments'
+import { Counter } from '../../components/Counter'
 
 function App() {
 
@@ -10,6 +12,8 @@ function App() {
     <AlbumProvider>
       <CommentProvider>
         <CounterProvider>
+          <Counter/>
+          <Comments/>
           <Albuns/>
         </CounterProvider>
       </CommentProvider>
